@@ -5,7 +5,7 @@ package pruebas;
 
 public class Pruebas {
 
-    // Mi primer FizzBuzz :)
+    // Mi primer FizzBuzz :))
     
     public static void main(String[] args)
     {
