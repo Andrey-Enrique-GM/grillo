@@ -3,6 +3,7 @@ package mx.itson.grillo.entities;
 
 // @author Andrey
 
+import com.google.gson.annotations.SerializedName;
 import java.util.List;
 import mx.itson.grillo.enums.WeatherStatus;
 
@@ -14,7 +15,7 @@ public class Weather
     private int temperature;
     private int humidity;
     private WeatherStatus status;
-    //@SerializedName ("wind_speed")
+    @SerializedName ("wind_speed")
     private int windSpeed;
     // Esto es una composicion!!!
     private List<Forecast> forecast;
